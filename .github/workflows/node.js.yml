@@ -29,3 +29,5 @@ jobs:
       working-directory: ./adventure-granted
     - run: npm run build --if-present
       working-directory: ./adventure-granted
+    - run: pm2 restart adventuregranted
+      working-directory: ./adventure-granted
