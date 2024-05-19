@@ -27,5 +27,6 @@ jobs:
         cache-dependency-path:  '**/package-lock.json'
     - run: ls
     - run: cd adventure-granted
+    - run: ls
     - run: npm ci
     - run: npm run build --if-present
